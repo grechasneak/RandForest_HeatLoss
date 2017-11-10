@@ -15,7 +15,9 @@ The value outputted can be multiplied by the value of thermal diffusivity calcul
 Parker's equation using the half rise time
 
 '''
-#PS I LOVE COMPUTER SCIENCE!
+#PS I LOVE COMPUTER SCIENCE and Mathematics!
+
+
 
 pickle_in = open('r_forest_regressor.pickle','rb')
 clf = pickle.load(pickle_in)
