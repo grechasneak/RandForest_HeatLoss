@@ -15,6 +15,7 @@ The value outputted can be multiplied by the value of thermal diffusivity calcul
 Parker's equation using the half rise time
 
 '''
+#PS I LOVE COMPUTER SCIENCE!
 
 pickle_in = open('r_forest_regressor.pickle','rb')
 clf = pickle.load(pickle_in)
@@ -23,7 +24,7 @@ clf = pickle.load(pickle_in)
 
 aspect = 2 #diameter/thickness
 temperature = 512 #[K]
-shape = 0# 0 cylinder, 1 Rectange, 
+shape = 0# 0 cylinder, 1 Rectange,
 
 def correction_factor(aspect, temperature, shape):
 
@@ -33,6 +34,6 @@ def correction_factor(aspect, temperature, shape):
 	factor = 1 / calc_over_actual
 	print(factor)
 	return factor
-	
-	
+
+
 correction = correction_factor(aspect, temperature, shape)
